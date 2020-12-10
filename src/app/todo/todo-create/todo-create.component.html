@@ -1,0 +1,16 @@
+<mat-card>
+    <mat-form-field>
+        <input type="text" matInput placeholder="username" [(ngModel)]="username">
+    </mat-form-field>
+    <mat-form-field>
+        <input type="text" matInput placeholder="Hours">
+    </mat-form-field>
+
+    <mat-form-field>
+
+        <input type="text" matInput placeholder="Date">
+    </mat-form-field>
+
+
+    <button mat-raised-button color="accent" (click)="onSubmit()">Add Todo</button>
+</mat-card>
