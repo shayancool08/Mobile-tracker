@@ -8,7 +8,7 @@ const todoRoute = require("./routes/todo.routes");
 
 mongoose
     .connect(
-        "mongodb+srv://vaibhav123:123@cluster0.gin7s.mongodb.net/tododb?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }
+        "mongodb+srv://new:hCoA37mIz37gLF3F@nodeapi.kwwq9.mongodb.net/<dbname>?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }
     )
     .then(() => console.log("Connected to database successfully"))
     .catch((err) => console.log(err));
